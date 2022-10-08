@@ -36,10 +36,7 @@ namespace ISSTest
                 });
             });
             services.AddScoped<IRepository, Repository>();
-            //services.AddSingleton<IAppSettings>((serviceProvider) =>
-            //{
-            //    return Configuration.GetSection("AppSettings").Get<AppSettings>();
-            //});
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
